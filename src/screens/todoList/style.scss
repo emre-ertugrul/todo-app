@@ -1,0 +1,31 @@
+.todo-list-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 10px 200px;
+
+  .new-todo-section {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .todo-list-section {
+    border-radius: 6px;
+    width: 100%;
+    border: 1px solid rgb(207 199 199);
+  }
+
+  .todo-list-section:last-child {
+    border-bottom: none;
+  }
+
+  @media (max-width: 1024px) {
+    padding: 10px 100px;
+  }
+}
